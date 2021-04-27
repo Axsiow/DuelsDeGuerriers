@@ -33,7 +33,7 @@ public class Guerrier {
     public void attaquer (Guerrier Adversaire) {
         for (int i=0; i<nbDesAttaque; i++) {
             Random rd = new Random();
-            int valeurLancer = rd.nextInt(bound:)+1;
+            int valeurLancer = rd.nextInt(6) + 1;
             Adversaire.subirDegats(valeurLancer);
             Adversaire.afficherInfos();
         }
