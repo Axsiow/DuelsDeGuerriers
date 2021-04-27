@@ -2,6 +2,7 @@ import java.util.Random;
 
 public class Guerrier {
 
+    // Atributs
     private String nom;
     private int pv;
     private int nbDesAttaque;
@@ -41,6 +42,6 @@ public class Guerrier {
     }
 
     public void subirDegats(int degats) {
-        this.pv = this.pv - degats
+        this.pv = this.pv - degats;
     }
 }
