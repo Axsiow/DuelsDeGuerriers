@@ -49,7 +49,7 @@ public class main {
 
 			// Display remaining fighters
 			System.out.println("Guerriers restants:");
-			for (int wesh=0; i<arrayGuerrier.size(); wesh++) {
+			for (int wesh=0; wesh<arrayGuerrier.size(); wesh++) {
 				arrayGuerrier.get(wesh).afficherInfos();
 			}
 
