@@ -28,7 +28,7 @@ public class Guerrier {
     }
 
     public void afficherInfos() {
-        System.out.println(this.nom+"{PV="+this+"}");
+        System.out.println(this.nom+"{PV="+this.pv+"}");
     }
 
     public void attaquer (Guerrier Adversaire) {

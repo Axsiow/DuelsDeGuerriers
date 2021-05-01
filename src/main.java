@@ -13,12 +13,9 @@ public class main {
 		Elfe e1 = new Elfe("Amaury Oley", 30, 2, 6);
 		Elfe e2 = new Elfe("Marie Houana",35, 2, 5);
 
-//        list<Guerrier> combattants= new ArrayList<>();
+//      list<Guerrier> combattants= new ArrayList<>();
 //		g2.afficherInfos();
 //		GuerriersUtil.regenereGuerrier(g2);
-//		g2.afficherInfos();
-//		GuerriersUtil.regenereGuerrier(g2);
-//		g2.afficherInfos();
 
 		g1.afficherInfos();
 		g2.afficherInfos();
@@ -51,8 +48,14 @@ public class main {
 			arrayGuerrier.remove(choiceBot);
 
 			// Display remaining fighters
-//			ShowFighters(arrayGuerrier);
+			System.out.println("Guerriers restants:");
+			for (int wesh=0; i<arrayGuerrier.size(); wesh++) {
+				arrayGuerrier.get(wesh).afficherInfos();
+			}
 
+
+//			ShowFighters(arrayGuerrier);
 		}
+
 	}
 }
