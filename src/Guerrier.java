@@ -3,9 +3,9 @@ import java.util.Random;
 public class Guerrier {
 
     // Atributs
-    private String nom;
-    private int pv;
-    private int nbDesAttaque;
+    public String nom;
+    protected int pv;
+    protected int nbDesAttaque;
 
     public Guerrier(String nom, int pv, int nbDesAttaque) {
         this.nom = nom;
