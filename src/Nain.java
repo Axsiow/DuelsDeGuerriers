@@ -6,5 +6,4 @@ public class Nain extends Guerrier {
         super(nom, pv, nbDesAtt); // (Appelle le constructeur de Guerrier)
         protectionArmureLourde = protecArmuLourde;
     }
-    /* ...(SUITE DU CODE)... */
 }
