@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Guerrier {
+public abstract class Guerrier {
 
     // Atributs
     public String nom;
